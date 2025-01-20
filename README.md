@@ -6,10 +6,7 @@ Application Python de détection et tracking d'objets en temps réel utilisant Y
 ## Fonctionnalités
 - 🎥 Détection en temps réel via webcam
 - 📹 Analyse de vidéos préenregistrées
-- 🔄 Tracking d'objets avec SORT
-- 📊 Comptage d'objets par type
-- 💾 Sauvegarde des statistiques
-- 🖥️ Interface graphique intuitive
+- 🖥️ Interface graphique simple
 
 ## Prérequis
 - Python 3.12
@@ -54,20 +51,7 @@ python main.py
 - Utiliser les contrôles vidéo pour :
   * Arrêter la vidéo en cours
   * Charger une nouvelle vidéo
-- Les statistiques sont affichées en temps réel
-- Utiliser le bouton "Sauvegarder les statistiques" pour exporter les résultats
 
-## Structure du projet
-```
-Detection_objet/
-│
-├── main.py              # Application principale et interface
-├── sort.py             # Implémentation de l'algorithme SORT
-├── requirements.txt    # Dépendances Python
-├── documentation.txt   # Documentation détaillée
-├── .gitignore         # Configuration Git
-└── README.md          # Ce fichier
-```
 
 ## Dépendances principales
 - ultralytics==8.3.64
@@ -88,7 +72,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## Auteur
-[Votre Nom]
+Steventog
 
 ## Remerciements
 - Ultralytics pour YOLOv8
